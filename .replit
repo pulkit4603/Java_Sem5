@@ -1,0 +1,12 @@
+modules = ["java-graalvm22.3"]
+run = "cd jplsemfive && find . -name \"*.java\" -exec javac {} + && cd .. && javac ExperimentRunner.java && java ExperimentRunner"
+
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = [
+  "sh",
+  "-c",
+  "cd jplsemfive && find . -name \"*.java\" -exec javac {} + && cd .. && javac ExperimentRunner.java && java ExperimentRunner",
+]
