@@ -1,4 +1,4 @@
-package jplsemfive.exp4.bookRating;
+package jplsemfive.exp4.employe;
 
 public class SalariedEmployee extends Employee {
     private double empSalary;

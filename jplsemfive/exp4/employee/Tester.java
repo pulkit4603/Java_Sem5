@@ -1,4 +1,4 @@
-package jplsemfive.exp4.bookRating;
+package jplsemfive.exp4.employe;
 
 import java.util.*;
 
